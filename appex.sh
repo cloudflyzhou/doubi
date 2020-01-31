@@ -26,11 +26,7 @@ fi
 
 function pause()
 {
-read -n 1 -p "Press Enter to Continue..." INP
-if [ "$INP" != '' ] ; then
-echo -ne '\b \n'
-echo "";
-fi
+
 }
 
 function Check()

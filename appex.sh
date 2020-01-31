@@ -26,7 +26,7 @@ fi
 
 function pause()
 {
-
+   echo "pause"
 }
 
 function Check()
